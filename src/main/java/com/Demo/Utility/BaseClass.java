@@ -26,7 +26,7 @@ public class BaseClass {
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 		}
-		driver.get("https://www.amazon.in");
+		driver.get("url");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
