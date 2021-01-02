@@ -13,6 +13,7 @@ public class Test_One extends BaseClass{
 		homepage.getsearch().sendKeys("Footwear");
 		homepage.clickonsearchbutton();
 		System.out.println("Test Pass");
+		System.out.println("1");
 	}
 
 }
